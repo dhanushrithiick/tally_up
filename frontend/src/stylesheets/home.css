@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  background: #f9fafb;
+  color: #333;
+}
+
+.modern-home {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 0 24px;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.home-header h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.logout {
+  background: transparent;
+  border: 1.5px solid #d33;
+  color: #d33;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.logout:hover {
+  background-color: #ffe5e5;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 28px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.info {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.user-chip {
+  background-color: #e7f0fd;
+  padding: 10px 14px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.primary-btn {
+  width: 100%;
+  padding: 14px;
+  background-color: #0078d7;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 6px;
+}
+
+.primary-btn:hover {
+  background-color: #005fa3;
+}
+
+.expense-row {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  line-height: 1.6;
+}
+
+.expense-row:last-child {
+  border-bottom: none;
+}
